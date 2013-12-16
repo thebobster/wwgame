@@ -4,7 +4,7 @@
     'Set-up all number buttons to use the addtonumber sub-routine
     'Set-up the clear button to reset the value of phonenum to 0
     'Big task: set up the enter button to run a sub to check the number against a list (to be added) that will decide what to do/output in return
-
+    'Test Commit #1
 
     Public phonenum As Integer
 
@@ -23,5 +23,9 @@
 
     Private Sub petphone_FormClosing(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles MyBase.FormClosing
         Application.Exit() 'Closes all windows at once
+    End Sub
+
+    Private Sub petphone_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
